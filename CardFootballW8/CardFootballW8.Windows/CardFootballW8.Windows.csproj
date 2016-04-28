@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2C7B4B0E-7F43-4F35-9FC4-B6FDF55DEA9B}</ProjectGuid>
+    <OutputType>AppContainerExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CardFootballW8</RootNamespace>
+    <AssemblyName>CardFootballW8.Windows</AssemblyName>
+    <DefaultLanguage>ru-RU</DefaultLanguage>
+    <TargetPlatformVersion>8.1</TargetPlatformVersion>
+    <MinimumVisualStudioVersion>12</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <SynthesizeLinkMetadata>true</SynthesizeLinkMetadata>
+    <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PackageCertificateKeyFile>CardFootballW8.Windows_StoreKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateThumbprint>44D61931809452F6AFEE203F37AD6E9C892E14F8</PackageCertificateThumbprint>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxBundlePlatforms>neutral</AppxBundlePlatforms>
+    <AppxBundle>Always</AppxBundle>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_APP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Card.cs" />
+    <Compile Include="Field.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="RulesSettingsFlyout.xaml.cs">
+      <DependentUpon>RulesSettingsFlyout.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ImageConverter.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Player.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Score.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="Assets\BadgeLogo.scale-100.png" />
+    <Content Include="Assets\BadgeLogo.scale-140.png" />
+    <Content Include="Assets\BadgeLogo.scale-180.png" />
+    <Content Include="Assets\Fonts\Ozone.ttf" />
+    <Content Include="Assets\SmallLogo.scale-140.png" />
+    <Content Include="Assets\SmallLogo.scale-180.png" />
+    <Content Include="Assets\SmallLogo.scale-80.png" />
+    <Content Include="Assets\SplashScreen.scale-140.png" />
+    <Content Include="Assets\SplashScreen.scale-180.png" />
+    <Content Include="Assets\Square310x310Logo.scale-100.png" />
+    <Content Include="Assets\Square310x310Logo.scale-140.png" />
+    <Content Include="Assets\Square310x310Logo.scale-180.png" />
+    <Content Include="Assets\Square310x310Logo.scale-80.png" />
+    <Content Include="Assets\StoreLogo.scale-140.png" />
+    <Content Include="Assets\StoreLogo.scale-180.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-100.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-140.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-180.png" />
+    <Content Include="Assets\Wide310x150Logo.scale-80.png" />
+    <None Include="CardFootballW8.Windows_StoreKey.pfx" />
+    <None Include="Package.StoreAssociation.xml" />
+    <None Include="CardFootballW8.Windows_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\background.jpg" />
+    <Content Include="Assets\background75.jpg" />
+    <Content Include="Assets\Cards\10_of_clubs.png" />
+    <Content Include="Assets\Cards\10_of_diamonds.png" />
+    <Content Include="Assets\Cards\10_of_hearts.png" />
+    <Content Include="Assets\Cards\10_of_spades.png" />
+    <Content Include="Assets\Cards\2_of_clubs.png" />
+    <Content Include="Assets\Cards\2_of_diamonds.png" />
+    <Content Include="Assets\Cards\2_of_hearts.png" />
+    <Content Include="Assets\Cards\2_of_spades.png" />
+    <Content Include="Assets\Cards\3_of_clubs.png" />
+    <Content Include="Assets\Cards\3_of_diamonds.png" />
+    <Content Include="Assets\Cards\3_of_hearts.png" />
+    <Content Include="Assets\Cards\3_of_spades.png" />
+    <Content Include="Assets\Cards\4_of_clubs.png" />
+    <Content Include="Assets\Cards\4_of_diamonds.png" />
+    <Content Include="Assets\Cards\4_of_hearts.png" />
+    <Content Include="Assets\Cards\4_of_spades.png" />
+    <Content Include="Assets\Cards\5_of_clubs.png" />
+    <Content Include="Assets\Cards\5_of_diamonds.png" />
+    <Content Include="Assets\Cards\5_of_hearts.png" />
+    <Content Include="Assets\Cards\5_of_spades.png" />
+    <Content Include="Assets\Cards\6_of_clubs.png" />
+    <Content Include="Assets\Cards\6_of_diamonds.png" />
+    <Content Include="Assets\Cards\6_of_hearts.png" />
+    <Content Include="Assets\Cards\6_of_spades.png" />
+    <Content Include="Assets\Cards\7_of_clubs.png" />
+    <Content Include="Assets\Cards\7_of_diamonds.png" />
+    <Content Include="Assets\Cards\7_of_hearts.png" />
+    <Content Include="Assets\Cards\7_of_spades.png" />
+    <Content Include="Assets\Cards\8_of_clubs.png" />
+    <Content Include="Assets\Cards\8_of_diamonds.png" />
+    <Content Include="Assets\Cards\8_of_hearts.png" />
+    <Content Include="Assets\Cards\8_of_spades.png" />
+    <Content Include="Assets\Cards\9_of_clubs.png" />
+    <Content Include="Assets\Cards\9_of_diamonds.png" />
+    <Content Include="Assets\Cards\9_of_hearts.png" />
+    <Content Include="Assets\Cards\9_of_spades.png" />
+    <Content Include="Assets\Cards\ace_of_clubs.png" />
+    <Content Include="Assets\Cards\ace_of_diamonds.png" />
+    <Content Include="Assets\Cards\ace_of_hearts.png" />
+    <Content Include="Assets\Cards\ace_of_spades.png" />
+    <Content Include="Assets\Cards\ace_of_spades2.png" />
+    <Content Include="Assets\Cards\black_joker.png" />
+    <Content Include="Assets\Cards\BlueBack.png" />
+    <Content Include="Assets\Cards\jack_of_clubs.png" />
+    <Content Include="Assets\Cards\jack_of_clubs1.png" />
+    <Content Include="Assets\Cards\jack_of_diamonds.png" />
+    <Content Include="Assets\Cards\jack_of_diamonds1.png" />
+    <Content Include="Assets\Cards\jack_of_hearts.png" />
+    <Content Include="Assets\Cards\jack_of_hearts1.png" />
+    <Content Include="Assets\Cards\jack_of_spades.png" />
+    <Content Include="Assets\Cards\jack_of_spades1.png" />
+    <Content Include="Assets\Cards\king_of_clubs.png" />
+    <Content Include="Assets\Cards\king_of_clubs1.png" />
+    <Content Include="Assets\Cards\king_of_diamonds.png" />
+    <Content Include="Assets\Cards\king_of_diamonds1.png" />
+    <Content Include="Assets\Cards\king_of_hearts.png" />
+    <Content Include="Assets\Cards\king_of_hearts1.png" />
+    <Content Include="Assets\Cards\king_of_spades.png" />
+    <Content Include="Assets\Cards\king_of_spades1.png" />
+    <Content Include="Assets\Cards\queen_of_clubs.png" />
+    <Content Include="Assets\Cards\queen_of_clubs1.png" />
+    <Content Include="Assets\Cards\queen_of_diamonds.png" />
+    <Content Include="Assets\Cards\queen_of_diamonds1.png" />
+    <Content Include="Assets\Cards\queen_of_hearts.png" />
+    <Content Include="Assets\Cards\queen_of_hearts1.png" />
+    <Content Include="Assets\Cards\queen_of_spades.png" />
+    <Content Include="Assets\Cards\queen_of_spades1.png" />
+    <Content Include="Assets\Cards\red_joker.png" />
+    <Content Include="Assets\Logo.scale-100.png" />
+    <Content Include="Assets\Logo.scale-140.png" />
+    <Content Include="Assets\Logo.scale-180.png" />
+    <Content Include="Assets\Logo.scale-80.png" />
+    <Content Include="Assets\scoreboard.png" />
+    <Content Include="Assets\SmallLogo.scale-100.png" />
+    <Content Include="Assets\SplashScreen.scale-100.png" />
+    <Content Include="Assets\Square70x70Logo.scale-100.png" />
+    <Content Include="Assets\Square70x70Logo.scale-140.png" />
+    <Content Include="Assets\Square70x70Logo.scale-180.png" />
+    <Content Include="Assets\Square70x70Logo.scale-80.png" />
+    <Content Include="Assets\StoreLogo.scale-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="RulesSettingsFlyout.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="WinRTXamlToolkit">
+      <HintPath>..\..\packages\winrtxamltoolkit.1.6.1.3\lib\netcore451\WinRTXamlToolkit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
+    <VisualStudioVersion>12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="..\CardFootballW8.Shared\CardFootballW8.Shared.projitems" Label="Shared" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

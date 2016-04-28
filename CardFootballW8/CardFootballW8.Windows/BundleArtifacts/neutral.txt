@@ -1,0 +1,5 @@
+MainPackage=D:\OneDrive\Projects\C#\CardFootballW8\CardFootballW8\CardFootballW8.Windows\bin\Release\CardFootballW8.Windows_1.1.1.3_Bundle\CardFootballW8.Windows_1.1.1.3_AnyCPU.appx
+SymbolPackage=D:\OneDrive\Projects\C#\CardFootballW8\CardFootballW8\CardFootballW8.Windows\AppPackages\CardFootballW8.Windows_1.1.1.3_Test\CardFootballW8.Windows_1.1.1.3_AnyCPU.appxsym
+ResourcePack=D:\OneDrive\Projects\C#\CardFootballW8\CardFootballW8\CardFootballW8.Windows\bin\Release\CardFootballW8.Windows_1.1.1.3_Bundle\CardFootballW8.Windows_1.1.1.3_language-en.appx
+ResourcePack=D:\OneDrive\Projects\C#\CardFootballW8\CardFootballW8\CardFootballW8.Windows\bin\Release\CardFootballW8.Windows_1.1.1.3_Bundle\CardFootballW8.Windows_1.1.1.3_scale-140.appx
+ResourcePack=D:\OneDrive\Projects\C#\CardFootballW8\CardFootballW8\CardFootballW8.Windows\bin\Release\CardFootballW8.Windows_1.1.1.3_Bundle\CardFootballW8.Windows_1.1.1.3_scale-180.appx
